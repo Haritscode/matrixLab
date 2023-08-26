@@ -1,0 +1,33 @@
+.container{
+    background-color: transparent;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    display:flex;
+    align-items: center;
+}
+.searchbar{
+    width: 350px;
+    padding:1rem 2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    font-size: larger;
+    border-radius: 25px;
+    font-weight: 500;
+    padding-right:4rem;
+}
+.search_icon{
+    position:absolute;
+    right:0px;
+    display:flex;
+    width:50px;
+    align-items: start;
+    color: white;
+}
+.search_btn{
+    background: none;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+}

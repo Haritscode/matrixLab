@@ -1,0 +1,21 @@
+.topbar{
+    position: relative;
+    max-width: 100%;
+    height:10vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 4rem;
+    background-color: none;
+    z-index: 100;
+}
+.topbar .connect_btn{
+    width:200px;
+    height:60px;
+    border-radius: 20px;
+    background: linear-gradient(95.24deg, #7C0F35 7.59%, #581266 104.01%);
+    border:none;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
